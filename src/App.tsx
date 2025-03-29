@@ -1,12 +1,10 @@
 import "./App.css"
 import { items } from "./Data/items"
 import Logo from "/Logo.png"
-import Dak from "/Dak.png"
 import Tongdak from "/Tongdak.png"
 import DeliverooLogo from "/Deliveroo.jpg"
 import JustEatLogo from "/JustEat.jpg"
 import UberEatsLogo from "/UberEats.png"
-import KT3Branch from "/KT3.jpg"
 
 function App() {
   return (
