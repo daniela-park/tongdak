@@ -4,12 +4,14 @@ import YangnyeomImg from "../assets/Yangnyeom.png"
 import WhiteSpicesImg from "../assets/WhiteSpices.png"
 import GarlicSoyaImg from "../assets/GarlicSoya.png"
 import CheeseSpicesImg from "../assets/CheeseSpices.png"
+/*
 import HoneyButterImg from "../assets/HoneyButter.png"
 import HalfAndHalfImg from "../assets/HalfAndHalf.png"
 import DakGangjeongImg from "../assets/DakGangjeong.png"
 import ChibapImg from "../assets/Chibap.png"
 import TteokbokkiImg from "../assets/Tteokbokki.png"
 import RoseTteokbokkiImg from "../assets/RoseTteokbokki.png"
+*/
 
 export const items: MenuItem[] = [
     {

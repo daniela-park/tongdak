@@ -34,7 +34,7 @@ function App() {
         <h1 className="container-mid-h1-yellow">TOP 5 DISHES</h1>
           <div className="top-dishes-container">
             {items.map((MenuItems) => (
-              <a href={MenuItems.link} className="top-dishes-tile">
+              <a href={MenuItems.name} className="top-dishes-tile">
                 <img src={MenuItems.image} className="food-image"></img>
                 <div className="food-details">
                 <h2>{MenuItems.name}</h2>
