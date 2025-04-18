@@ -1,45 +1,34 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
-
-  const [showMenu, setShowMenu] = useState(false);
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
-
-  const closeMenuOnMobile = () => {
-    setShowMenu(false);
-  };
 
   return (
     <>
       <nav className={`navbar ${location.pathname === "/home" ? "collapsed" : ""}`}>
         <ul>
           <li>
-            <Link to="/home" onClick={closeMenuOnMobile}>
+            <Link to="/home">
               HOME
             </Link>
           </li>
           <li>
-            <Link to="/menu" onClick={closeMenuOnMobile}>
+            <Link to="/menu">
               MENU
             </Link>
           </li>
           <li>
-            <Link to="/order" onClick={closeMenuOnMobile}>
+            <Link to="/order">
               ORDER
             </Link>
           </li>
           <li>
-            <Link to="/shops" onClick={closeMenuOnMobile}>
+            <Link to="/shops">
               SHOPS
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={closeMenuOnMobile}>
+            <Link to="/contact">
               CONTACT
             </Link>
           </li>

@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 import "./Top5.css";
 import FriedOriginalImg from "../assets/FriedOriginal.png"
 import YangnyeomImg from "../assets/Yangnyeom.png"
@@ -8,12 +7,6 @@ import GarlicSoyaImg from "../assets/GarlicSoya.png"
 import CheeseSpicesImg from "../assets/CheeseSpices.png"
 
 const Top5 = () => {
-
-  const [showMenu, setShowMenu] = useState(false);
-
-  const closeMenuOnMobile = () => {
-    setShowMenu(false);
-  };
 
   return (
     <>
