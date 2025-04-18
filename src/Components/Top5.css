@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+/*********** Top5 **********/
+.container-top5 {
+    font-size: 2.5vh;
+    height: 25%;
+    padding: 0 0 5vh 0;
+  }
+  
+  .top5-h1-red {
+    color: rgb(231, 28, 31);
+    text-align: right;
+    text-shadow: 5px 5px 10px rgb(0, 0, 2);
+    font-size: 7.5vh;
+    padding: 5vw 5vw 0 0;
+  }
+  
+  .top5-h1-yellow {
+    color: rgb(246, 238, 191);
+    text-align: right;
+    text-shadow: 5px 5px 10px rgb(0, 0, 2);
+    font-size: 7.5vh;
+    padding: 0 5vw 0 5vw;
+  }
+  
+  .top5-dishes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 5vw 0 5vw;
+    background-color: rgb(0, 0, 2);
+    position: relative;
+  }
+  
+  .flip-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    width: 15vw;
+    height: 17.5vw;
+    perspective: 1000px;
+  }
+  
+  /* To position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Horizontal flip when hovered */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* To position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 0.5vw;
+  }
+  
+  /* To style the front side */
+  .flip-card-front {
+    background-color: rgb(246, 238, 191);
+    color: rgb(0, 0, 2);
+    padding: 1vw;
+  }
+  
+  /* To style the back side */
+  .flip-card-back {
+    align-content: center;
+    background-color: rgb(231, 28, 31);
+    color: rgb(246, 238, 191);
+    transform: rotateY(180deg);
+    padding: 1.5vw;
+  }
+
+  .top-dishes-tile {
+    width: calc(25% - 1.5vw); 
+    height: 20%;
+    background-color: rgb(246, 238, 191);
+    text-decoration: none;
+    transition: filter 0.25s;
+  }
+  
+  .top-dishes-tile:hover {
+    filter: brightness(0.75);
+    transform: scale(1.10);
+  }
+  
+  .food-image {
+    width: 100%;
+    height: 65%;
+  }
+  
+  .food-details {
+    padding: 0 1.5vw 1.5vw 1.5vw;
+    text-align: center;
+    color: rgb(231, 28, 31);
+    font-size: 1rem;
+  }
+  
+  .food-details p {
+    text-align: center;
+    color: rgb(0, 0, 2);
+    z-index: 100;
+    font-size: 1rem;
+  }
+
+  .top5-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 2.5vw;
+    background-color: rgb(0, 0, 2);
+    position: relative;
+  }
+  
+  .top5-button {
+    background-color: rgb(231, 28, 31);
+    color:  rgb(246, 238, 191);
+    margin: 0 5vw 0 5vw;
+    padding: 1vw 10vw 1vw 10vw;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .top5-button:hover {
+    filter: brightness(0.75);
+    color:  rgb(246, 238, 191);
+  }
+
+  .top5-button:active {
+    background-color: rgb(231, 28, 31);
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+  }
+
+  .top5-button a {
+    color:  rgb(246, 238, 191);
+  }
