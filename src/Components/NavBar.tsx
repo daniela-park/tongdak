@@ -5,10 +5,10 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className={`navbar ${location.pathname === "/home" ? "collapsed" : ""}`}>
+      <nav className={`navbar ${location.pathname === "/tongdak" ? "collapsed" : ""}`}>
         <ul>
           <li>
-            <Link to="/home">
+            <Link to="/tongdak">
               HOME
             </Link>
           </li>
