@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <NavBar />
       </div>
       <Routes>
-        <Route path="/home" element={<LandingPage />} />
+        <Route path="/tongdak" element={<LandingPage />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/shops" element={<ShopsPage />} />
         <Route path="/order" element={<OrderPage />} />
