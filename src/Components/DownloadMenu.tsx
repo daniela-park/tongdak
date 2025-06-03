@@ -1,6 +1,6 @@
 import "./DownloadMenu.css";
 import Menu from "../assets/Menu.gif"
-import MenuNewMalden from "../assets/Tongdak_NewMalden.pdf"
+//import MenuNewMalden from "../assets/Tongdak_NewMalden.pdf"
 import MenuWimbledon from "../assets/Tongdak_Wimbledon.pdf"
 
 const DownloadMenu = () => {
@@ -13,7 +13,7 @@ const DownloadMenu = () => {
           <div className="dl-container-box-left">
             <div className="dl-menu-button-container">
               <button className="dl-menu-button">
-                <a href={MenuNewMalden} download>New Malden</a>
+                <a href={MenuWimbledon} download>New Malden</a>
               </button>
             </div>
             <div className="dl-menu-button-container">
