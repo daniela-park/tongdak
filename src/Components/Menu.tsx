@@ -6,7 +6,7 @@ import { Noodle } from "../Data/Noodle"
 import { RiceDish } from "../Data/RiceDish"
 import { Sides } from "../Data/Sides"
 import { Drinks } from "../Data/Drinks"
-import MenuPdf from "../assets/TongdakWimbledon.pdf"
+import MenuPdf from "../assets/Tongdak_Wimbledon.pdf"
 
 export function Menu() {
 

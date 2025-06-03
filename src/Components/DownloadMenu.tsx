@@ -1,7 +1,7 @@
 import "./DownloadMenu.css";
 import Menu from "../assets/Menu.gif"
-import MenuNewMalden from "../assets/TongdakNewMalden.pdf"
-import MenuWimbledon from "../assets/TongdakWimbledon.pdf"
+import MenuNewMalden from "../assets/Tongdak_NewMalden.pdf"
+import MenuWimbledon from "../assets/Tongdak_Wimbledon.pdf"
 
 const DownloadMenu = () => {
 
