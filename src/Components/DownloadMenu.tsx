@@ -3,7 +3,7 @@ import Menu from "../assets/Menu.gif"
 import MenuNewMalden from "../assets/TongdakNewMalden.pdf"
 import MenuWimbledon from "../assets/TongdakWimbledon.pdf"
 
-const Contact = () => {
+const DownloadMenu = () => {
 
   return (
     <>
@@ -33,4 +33,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default DownloadMenu;
