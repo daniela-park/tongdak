@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./LandingPage.css";
 import Main from "../Components/Main";
 import Top5 from "../Components/Top5";
+import MostOrdered from "../Components/MostOrdered";
 import Order from "../Components/Order";
 
 const LandingPage: React.FC = () => {
@@ -15,6 +16,7 @@ const LandingPage: React.FC = () => {
         <div>
           <Main />
           <Top5 />
+          <MostOrdered />
           <Order />
         </div>
       </div>
